@@ -1,0 +1,32 @@
+.bodyBack {
+    background-image: url(../Media/Images/background.jpg);
+    background-size: 64px 64px;
+    background-repeat: repeat;
+    animation: backgroundScroll 20s linear infinite;
+}
+.topArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    text-decoration: underline;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+
+/*animations*/
+@keyframes backgroundScroll {
+    0% {background-position: 0 0px;}
+    100% {background-position: 0 64px;}
+}
