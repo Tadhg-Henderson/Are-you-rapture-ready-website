@@ -4,6 +4,16 @@
     background-repeat: repeat;
     animation: backgroundScroll 20s linear infinite;
 }
+.alertText {
+    color: red; 
+    font-family: 'Comic Sans MS';
+    animation: blink 1s step-start infinite;
+}
+.gH {
+    color: white;
+    text-align: center;
+    text-decoration: underline dashed ;
+}
 .topArea {
     display: flex;
     flex-direction: column;
@@ -30,3 +40,8 @@
     0% {background-position: 0 0px;}
     100% {background-position: 0 64px;}
 }
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
