@@ -12,7 +12,7 @@
 .gH {
     color: white;
     text-align: center;
-    text-decoration: underline dashed ;
+    text-decoration: underline dotted;
 }
 .topArea {
     display: flex;
