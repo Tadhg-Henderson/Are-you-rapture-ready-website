@@ -1,8 +1,8 @@
 .bodyBack {
     background-image: url(../Media/Images/background.jpg);
-    background-size: 64px 64px;
+    background-size: 128px 128px;
     background-repeat: repeat;
-    animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 30s linear infinite;
 }
 .alertText {
     color: red; 
@@ -12,7 +12,7 @@
 .gH {
     color: white;
     text-align: center;
-    text-decoration: underline dotted;
+    text-decoration: underline ;
 }
 .topArea {
     display: flex;
@@ -39,10 +39,19 @@
     position: absolute;
     margin: 10px 50px;
 }
+@media only screen and (max-width: 400px) {
+    .Disappear {
+      display: none;
+    }
+  }
+/*fonts*/
+body {
+    font-family: Garamond, serif;
+  }
 /*animations*/
 @keyframes backgroundScroll {
     0% {background-position: 0 0px;}
-    100% {background-position: 0 64px;}
+    100% {background-position: 0 128px;}
 }
 @keyframes blink {
     50% {
