@@ -1,8 +1,11 @@
 .bodyBack {
+    display: flex;
+    justify-content: center;
     background-image: url(../Media/Images/background.jpg);
     background-size: 128px 128px;
     background-repeat: repeat;
     animation: backgroundScroll 30s linear infinite;
+    overflow-x: hidden;
 }
 .alertText {
     color: red; 
