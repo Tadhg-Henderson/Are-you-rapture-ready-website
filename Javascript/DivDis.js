@@ -1,6 +1,6 @@
 var width = $( window ).width();
 console.log(width);
-if(width < 800)
+if(width < 1100)
 {
    document.getElementById('disDiv').setAttribute('style', 'width:50%; display:none');
    document.getElementById('disDivI').setAttribute('style', 'width:50%; display:none');;
