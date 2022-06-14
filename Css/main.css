@@ -48,8 +48,12 @@
     }
   }
 /*fonts*/
+@font-face {
+    font-family: baseText;
+    src: url(../Media/Font/LibreBaskerville-Regular.ttf);
+}
 body {
-    font-family: Garamond, serif;
+    font-family: baseText;
   }
 /*animations*/
 @keyframes backgroundScroll {
